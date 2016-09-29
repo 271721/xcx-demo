@@ -1,0 +1,10 @@
+/**detail.wxml**/
+.news-title {
+    font-size:30rpx;
+    text-align: center;
+    padding: 40dpx;
+}
+
+.news-info {
+    color:red;
+}

@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<swiper indicator-dots="true"
+  autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{topNews}}">
+    <swiper-item>
+      <image src="{{item.thumbnail_pic_s02}}" mode="aspectFill" class="slide-image" width="375" height="250"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="container news-list">
+  <block wx:for="{{techNews}}">
+    <view class="news-item" data-title="{{item.title}}" data-url="{{item.url}}" bindtap="bindViewTap">
+      <image src="{{item.thumbnail_pic_s}}" mode="aspectFill" class="list-image"/>
+      <view class="news-text">
+        <text class="news-title">{{item.title}}</text>
+        <view class="news-stamp">
+          <text>{{item.author_name}}</text>
+          <text>{{item.date}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

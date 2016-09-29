@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/manage/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "学习程序",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "false"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "list": [
+      {
+        "pagePath": "pages/manage/index/index",
+        "iconPath": "static/image/icon/home.png",
+        "selectedIconPath": "static/image/icon/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/manage/index/index",
+        "iconPath": "static/image/icon/comment.png",
+        "selectedIconPath": "static/image/icon/comment.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/manage/index/index",
+        "iconPath": "static/image/icon/search.png",
+        "selectedIconPath": "static/image/icon/search.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/manage/index/index",
+        "iconPath": "static/image/icon/settings.png",
+        "selectedIconPath": "static/image/icon/settings.png",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/manage/index/index",
+        "iconPath": "static/image/icon/comment.png",
+        "selectedIconPath": "static/image/icon/comment.png",
+        "text": "我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

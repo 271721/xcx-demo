@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f60",
+    "navigationBarTitleText": "灵犀新闻客户端",
+    "navigationBarTextStyle":"white"
+  },
+  "debug":false
+}

@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container">
+  <text class="news-title">{{title}}</text>
+  <text class="news-info">暂时找不到WebView的组件接口，于是不能加载网页数据 </text>
+  <text>{{url}}</text>
+  
+</view>
